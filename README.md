@@ -1,6 +1,8 @@
 ## fullstack-ts-docker-app
 
-Fullstack TypeScript application running across multiple Docker containers. Orchestrated using `docker compose`.
+Scaffolding for a fullstack TypeScript application running across multiple Docker containers. Orchestrated using `docker compose`.
+
+<img width="700" alt="Screen Shot 2024-01-06 at 5 21 01 PM" src="https://github.com/TGOlson/fullstack-ts-docker-app/assets/3476796/46b61fba-d026-49b3-8f9c-6fae0c6a1be0">
 
 ### dev
 
@@ -17,7 +19,7 @@ This create four docker containers
 * `server`: runs api server
 * `db`: manages a postgres instance
 
-To make changes to the app, simply modify files in `src`.
+Navigate to `localhost:8080` to see the app running. To make changes to the app, simply modify files in `src`.
 
 ### typechecking
 
